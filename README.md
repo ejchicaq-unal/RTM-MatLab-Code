@@ -4,7 +4,7 @@ Readme for Github repository only. (Get's selected before *.rst file)
 -->
 
 <a href="https://terralica.com">
-  <img src="https://terralica.com/public_html/Imagen_1.jpg" width="50%">
+  <img src="https://terralica.com/public_html/Terralica_Hi%20Res.jpg" width="50%">
 </a>
 
 [![license](https://img.shields.io/github/license/gimli-org/gimli.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0)
