@@ -1,4 +1,4 @@
-Reverse Time Migration (RTM) MatLab Code
+**Reverse Time Migration (RTM) MatLab Code**
 <!---
 Readme for Github repository only. (Get's selected before *.rst file)
 -->
