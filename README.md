@@ -3,17 +3,13 @@ Reverse Time Migration (RTM) MatLab Code
 Readme for Github repository only. (Get's selected before *.rst file)
 -->
 
-<a href="https://www.terralica.com">
-  <img src="ftp://u551419163@srv137.main-hosting.eu/public_html/Imagen_1.jpg" width="50%">
+<a href="https://terralica.com">
+  <img src="https://terralica.com/public_html/Imagen_1.jpg" width="50%">
 </a>
 
-<!--- Currently disables
-[![Build Status](http://g4.geo.uni-bonn.de:8080/buildStatus/icon?job=pyGIMLi&style=flat)](http://g4.geo.uni-bonn.de:8080/job/pyGIMLi/)
-[![Code Health](https://landscape.io/github/gimli-org/gimli/master/landscape.svg)](https://landscape.io/github/gimli-org/gimli/master)
--->
-[![license](https://img.shields.io/github/license/gimli-org/gimli.svg?style=flat-square)](https://pygimli.org/license.html)
-[![release](https://img.shields.io/github/release/gimli-org/gimli.svg?style=flat-square)](https://github.com/gimli-org/gimli/releases/latest)
-[![Github commits (since latest release)](https://img.shields.io/github/commits-since/gimli-org/gimli/latest.svg?style=flat-square)](https://github.com/gimli-org/gimli/tree/dev)
+[![license](https://img.shields.io/github/license/gimli-org/gimli.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0)
+[![release](https://img.shields.io/github/release/gimli-org/gimli.svg?style=flat-square)](https://github.com/ejchicaq-unal/RTM-MatLab-Code/releases/latest)
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/ejchicaq-unal/RTM-MatLab-Code/latest.svg?style=flat-square)](https://github.com/ejchicaq-unal/RTM-MatLab-Code/tree/dev)
 
 
 RTM MatLAb Code is an open-source library for modelling and inversion and in geophysics. The object-oriented library provides management for structured and unstructured meshes in 2D and 3D, finite-element and finite-volume solvers, various geophysical forward operators, as well as Gauss-Newton based frameworks for constrained, joint and fully-coupled inversions with flexible regularization.
@@ -100,15 +96,11 @@ BibTeX code:
 
 ##### License
 
-pyGIMLi is distributed under the terms of the **Apache 2.0** license. Details on
-the license agreement can be found [here].
+ is distributed under the terms of the **Apache 2.0** license.
 
-[here]: https://www.pygimli.org/license.html
-
-License
 Copyright 2020 Emiro Chica Quiñones - echica@terralica.com
 
-Licensed under the Apache License, Version 2.0 (the "License");
+RTM MatLab Code is distributed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 
 You may obtain a copy of the License at
