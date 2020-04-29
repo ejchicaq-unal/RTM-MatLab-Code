@@ -3,8 +3,8 @@ Reverse Time Migration (RTM) MatLab Code
 Readme for Github repository only. (Get's selected before *.rst file)
 -->
 
-<a href="https://www.pygimli.org">
-  <img src="https://www.pygimli.org/_static/gimli_logo.svg" width="50%">
+<a href="https://www.terralica.com">
+  <img src="ftp://u551419163@srv137.main-hosting.eu/public_html/Imagen_1.jpg" width="50%">
 </a>
 
 <!--- Currently disables
