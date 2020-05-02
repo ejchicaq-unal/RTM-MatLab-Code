@@ -12,87 +12,9 @@ Readme for Github repository only. (Get's selected before *.rst file)
 [![Github commits (since latest release)](https://img.shields.io/github/commits-since/ejchicaq-unal/RTM-MatLab-Code/latest.svg?style=flat-square)](https://github.com/ejchicaq-unal/RTM-MatLab-Code/tree/dev)
 
 
-RTM MatLAb Code is an open-source library for modelling and inversion and in geophysics. The object-oriented library provides management for structured and unstructured meshes in 2D and 3D, finite-element and finite-volume solvers, various geophysical forward operators, as well as Gauss-Newton based frameworks for constrained, joint and fully-coupled inversions with flexible regularization.
-
-What is pyGIMLi suited for?
-
--   analyze, visualize and invert geophysical data in a reproducible manner
--   forward modelling of (geo)physical problems on complex 2D and 3D geometries
--   inversion with flexible controls on a-priori information and regularization
--   combination of different methods in constrained, joint and fully-coupled inversions
--   teaching applied geophysics (e.g. in combination with [Jupyter notebooks])
-
-What is pyGIMLi **NOT** suited for?
-
--   for people that expect a ready-made GUI for interpreting their data
-
-[jupyter notebooks]: http://jupyter-notebook.readthedocs.io/en/latest/notebook.html#notebook-documents
-
-##### Binaries (Windows)
-
-See binaries on <https://www.pygimli.org/installation.html#win>
-
-##### For Anaconda users (currently Linux only)
-
-[![Anaconda-Server Badge](https://anaconda.org/gimli/pygimli/badges/installer/conda.svg)](https://conda.anaconda.org/gimli)
-[![Anaconda-Server Badge](https://anaconda.org/gimli/pygimli/badges/downloads.svg)](https://anaconda.org/gimli/pygimli)
-[![Anaconda-Server Badge](https://anaconda.org/gimli/pygimli/badges/version.svg)](https://anaconda.org/gimli/pygimli)
-[![Anaconda-Server Badge](https://anaconda.org/gimli/pygimli/badges/latest_release_date.svg)](https://anaconda.org/gimli/pygimli)
-
-```bash
-# Add gimli and conda-forge channels (only once)
-conda config --add channels gimli --add channels conda-forge
-
-# Install pygimli
-conda install pygimli
-
-# Test pygimli
-python -c "import pygimli; pygimli.test()"
-
-# Update pygimli
-conda update pygimli
-```
-
-##### Install via curl
-
-```bash
-curl -Ls install.pygimli.org | bash
-```
-
-##### Import convention
-
-```python
-import pygimli as pg
-print(pg.__version__)
-```
-
-Check www.pygimli.org for additional information, detailed installation
-instructions and many examples.
-
-#### Citing pyGIMLi
-
-More information can be found in [this paper]. If you use pyGIMLi for your work, please cite as:
-
-> Rücker, C., Günther, T., Wagner, F.M., 2017. pyGIMLi: An open-source library for modelling and inversion in geophysics, Computers and Geosciences, 109, 106-123, doi: 10.1016/j.cageo.2017.07.011.
-
-[this paper]: http://www.sciencedirect.com/science/article/pii/S0098300417300584/pdfft?md5=44253eaacd5490e3fb32210671672496&pid=1-s2.0-S0098300417300584-main.pdf
-
-BibTeX code:
-
-```sourceCode
-@article{Ruecker2017,
-  title = "{pyGIMLi}: An open-source library for modelling and inversion in geophysics",
-  journal = "Computers and Geosciences",
-  volume = "109",
-  number = "",
-  pages = "106--123",
-  year = "2017",
-  issn = "0098-3004",
-  doi = "10.1016/j.cageo.2017.07.011",
-  url = "http://www.sciencedirect.com/science/article/pii/S0098300417300584",
-  author = "Carsten R\"ucker and Thomas G\"unther and Florian M. Wagner"
-}
-```
+Abstract
+RTM is a depth migration method that implements a solution of the full wave equation. In this work, a methodology for the application of RTM to synthetic and real data is developed. We discuss the components of RTM: Acoustic wave modeling, boundary conditions and imaging condition. A Finite Difference Method (FDM) based on a staggered grid scheme was implemented for the wave modeling. A Hibryd ABC method that combines two of the most common solutions to the problem of boundary conditions: predictive boundary condition and absorbing boundary condition. RTM images were obtained using a Cross-correlation Imaging Condition with Wavefield Decomposition. The algorithm was applied to synthetic data obtained by modeling a complex geological structure, with a known velocity model. On real data, an image of the complex structure was obtained, which allowed us to know the real location of the reflection events. The obtained seismic image better resolved the seismic events compared with conventional methods of migration.
+Keywords: Migration, Imaging, RTM, Finite Difference Method, Full Wave Equation, Boundary Condition, Imaging Condition.
 
 ##### License
 
