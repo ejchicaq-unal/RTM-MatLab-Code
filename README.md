@@ -3,13 +3,9 @@
 Readme for Github repository only. (Get's selected before *.rst file)
 -->
 
-<a href="https://terralica.com">
-  <img src="https://terralica.com/public_html/Terralica_Hi%20Res.jpg" width="50%">
-</a>
-
 [![license](https://img.shields.io/github/license/gimli-org/gimli.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0)
 [![release](https://img.shields.io/github/release/gimli-org/gimli.svg?style=flat-square)](https://github.com/ejchicaq-unal/RTM-MatLab-Code/releases/latest)
-[![Github commits (since latest release)](https://img.shields.io/github/commits-since/ejchicaq-unal/RTM-MatLab-Code/latest.svg?style=flat-square)](https://github.com/ejchicaq-unal/RTM-MatLab-Code/tree/dev)
+[![Github commits (since latest release)](https://img.shields.io/github/commits-since/ejchicaq-unal/RTM-MatLab-Code/latest.svg?style=flat-square)](https://github.com/ejchicaq-unal/RTM-MatLab-Code)
 
 
 Abstract
