@@ -1,4 +1,4 @@
-function [data, FwdSnapshot] = FwdModelingFunction(V,rw,nz,~,nx,dx,nt,dt,ixs,izs,M,am,N,surec)
+function [data, FwdSnapshot] = FwdModelingFunction(V,rw,nz,~,nx,dx,nt,dt,ixs,izs,M,am,N)
 
 %%Copyright 2020 Emiro Chica Quiñones - echica@terralica.com
 %
